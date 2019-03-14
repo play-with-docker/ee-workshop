@@ -187,10 +187,10 @@ angular.module('yapp')
   .controller('LoginCtrl', ["$scope", "$location", "pwdService", "$stateParams", "$window", function($scope, $location, pwdService, $stateParams, $window) {
 
 
-    if (!$stateParams.aliId) {
-      $window.location.href = 'http://dockr.ly/bday5';
-      return;
-    }
+    //if (!$stateParams.aliId) {
+      //$window.location.href = 'http://dockr.ly/bday5';
+      //return;
+    //}
 
 
     pwdService.assignSession()
